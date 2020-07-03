@@ -4,30 +4,27 @@ function saturdayFun(activity = "roller-skate") {
 }
 
 
-mondayWork = function (activity = "go to the office") {
+let mondayWork = function (activity = "go to the office") {
     return `This Monday, I will ${activity}.`
 }
 
 function wrapAdjective(str = "*") {
-    return function cool(param = "special") {
+    return function (param = "special") {
         return `You are ${str}${param}${str}!`
     }
 }
 
-// let encouragingPromptFunction = wrapAdjective("!!!")
-// new Object = Calculator 
-
 const Calculator = {
-    add: function add(num1, num2) {
+    add: function (num1, num2) {
         return num1 + num2
     },
-    subtract: function subtract(num1, num2) {
+    subtract: function (num1, num2) {
         return num1 - num2
     },
-    multiply: function multiply(num1, num2) {
+    multiply: function (num1, num2) {
         return num1 * num2
     },
-    divide: function divide(num1, num2) {
+    divide: function (num1, num2) {
         return num1 / num2
     }
 }
