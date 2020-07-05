@@ -33,7 +33,7 @@ function actionApplyer(startingInteger, arrayOfFunctions) {
   if (arrayOfFunctions.length === 0) {
     return startingInteger;
   } else {
-    // return arrayOfFunctions.forEach(function(startingInteger));
+    // return arrayOfFunctions.forEach(console.log);
     return 4;
   }
 }
